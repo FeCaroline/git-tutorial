@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Tutorial GIT</title>
+    <link rel="icon" href="img/github-logo.png">
+    <link rel="stylesheet" href="css/tutorial.css">
+    <link href="https://fonts.googleapis.com/css?family=Encode+Sans+Expanded" rel="stylesheet">
+</head>
+
+<body>
+
+    <img src="img/professor.png" alt="imagem gato professor" class="img-gato">
+
+    <h1>Lista de comandos para Git</h1>
+
+    <h2>Comandos para iniciar</h2>
+
+    <ul>
+        <li><span class="cor-lista">git config --global user.name "Fulana"</span><br>Nome do usuário</li>
+        <li><span class="cor-lista">git config --global user.email "Fulana@etc.com"</span><br>E-mail do usuário</li>
+    </ul>
+
+    <h2>Comandos para navegar nos diretórios</h2>
+
+    <ul>
+        <li><span class="cor-lista">ls/ dir</span><br>listar diretórios</li>
+        <li><span class="cor-lista">pwd</span><br>present working directory (caminho atual)</li>
+        <li><span class="cor-lista">cd</span><br>change directory (ir para pasta diferente)</li>
+        <li><span class="cor-lista">cd ~</span><br>volta para pasta raiz</li>
+        <li><span class="cor-lista">cd .</span><br>volta uma pasta acima</li>
+        <li><span class="cor-lista">cd nome-da pasta</span><br>entrar em uma pasta</li>
+        <li><span class="cor-lista">touch nome-arquivo.extensão</span><br>criar novo arquivo</li>
+    </ul>
+
+    <h2>Comandos para adicionar, comitar, etc</h2>
+
+    <ul>
+        <li><span class="cor-lista">git init</span><br>avisa o git para ficar de olho na pasta</li>
+        <li><span class="cor-lista">git status</span><br>mostra o que foi modificado, adicionado e etc</li>
+        <li><span class="cor-lista">git add nome-arquivo.html</span><br>colocar na caixa a versão do arquivo</li>
+        <li><span class="cor-lista">git add .</span><br>colocar na caixa todos os arquivos</li>
+        <li><span class="cor-lista">git commit -m "descrição versão"</span><br>etiquetar com o que foi mudado na versão</li>
+        <li><span class="cor-lista">git log</span><br>timeline com todos os commits feitos</li>
+    </ul>
+
+    <h2>Comandos mais utilizados</h2>
+
+    <ul>
+        <li><span class="cor-lista">git checkout --arquivo.txt</span><br>voltar para a versão do último commit</li>
+        <li><span class="cor-lista">git branch nome-branch</span><br>criar um novo branch (linha do tempo separada da master)</li>
+        <li><span class="cor-lista">git checkout nome-branch</span><br>trocar de branch (antes foi só criado</li>
+        <li><span class="cor-lista">git merge nome-branch</span><br>juntar o branch atual com o principal (master)</li>
+    </ul>
+
+</body>
